@@ -1,0 +1,63 @@
+.reserve {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.311);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.rItemContainer {
+  gap: 10px;
+  padding-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.rContainer {
+  background-color: #fff;
+  width: 50%;
+  padding: 20px;
+  border: 2px solid #003580;
+  border-radius: 10px;
+}
+
+.rHeader {
+  display: flex;
+  justify-content: space-between;
+}
+
+.rItem {
+  width: 100%;
+  border: 1px solid rgba(0, 0, 0, 0.353);
+  border-radius: 10px;
+  padding: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.rUtils {
+  display: flex;
+  flex-direction: row;
+}
+
+.rRooms {
+  display: flex;
+  gap: 10px;
+}
+
+.rRoom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.rBtn-reserve {
+  width: 100%;
+  background-color: #003580;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
